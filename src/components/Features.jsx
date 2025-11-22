@@ -20,7 +20,7 @@ function Features() {
   ]
   return (
     <section className="bg-slate-950 border-t border-slate-800 text-white">
-      <div className="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12 grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
         {features.map((f, i) => (
           <div key={i} className="bg-slate-900/60 border border-slate-800 rounded-xl p-5 hover:border-emerald-500/30 transition">
             <div className="w-12 h-12 rounded-lg bg-slate-800 flex items-center justify-center mb-3">
